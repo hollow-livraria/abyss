@@ -13,11 +13,15 @@ export default function Header() {
         </Link>
         <ol>
           <li>
-            <Link href="/items" className={styles.link}>
+            <Link href="/pagina/items" className={styles.link}>
               Items
             </Link>
           </li>
-          <li>Campeões</li>
+          <li>
+            <Link href="/pagina/campeoes" className={styles.link}>
+              Campeões
+            </Link>
+          </li>
           <li>Lore</li>
           <li>Aram</li>
         </ol>
