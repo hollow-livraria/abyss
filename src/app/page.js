@@ -10,12 +10,9 @@ export default function Home() {
           <h1>League Of Legends</h1>
           <p>jogo mt ruim</p>
           <p>mas o aram é bão dimai</p>
-          <Link href="/items">saiba mais sobre os items</Link>
         </div>
       </main>
-      <footer className={styles.footer}>
-       
-      </footer>
+      <footer className={styles.footer}></footer>
     </div>
   );
 }

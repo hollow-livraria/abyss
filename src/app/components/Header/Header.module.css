@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #313131;
+}
+
+.logotipo {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+}
+
+.header > ol {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    font-size: 25px;
+    margin-right: 100px;
+    color: rgb(238, 231, 231);
+}
+
+.header > ol > li:hover {
+    cursor: pointer;
+    color: rgb(206, 180, 180);
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(238, 231, 231);
+}
+
+.link:hover {
+    color: rgb(206, 180, 180);
+}

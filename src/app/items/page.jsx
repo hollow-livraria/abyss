@@ -1,7 +1,6 @@
 import styles from './items.module.css';
 import Link from "next/link";
 
-
 export default function items() {
     return (
         <div className={styles.page}>
@@ -13,7 +12,6 @@ export default function items() {
                 <li>Botas da Lucidez</li>
                 <li>Liandrys</li>
               </ol>
-              <Link href="/">Voltar</Link>
             </div>
           </main>
           <footer className={styles.footer}>
